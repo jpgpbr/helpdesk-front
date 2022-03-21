@@ -27,7 +27,7 @@
             matInput placeholder="Password" >
           </mat-form-field>
 
-          <button [disabled] = "!validaCampos()" class="full-width mat-elevation-z8" mat-stroked-button color="primary">Efetuar login</button>
+          <button (click)="logar()" [disabled] = "!validaCampos()" class="full-width mat-elevation-z8" mat-stroked-button color="primary">Efetuar login</button>
 
       </form>
 
